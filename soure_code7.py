@@ -11,24 +11,10 @@ I'm fine."""
 print(multi_line)
 
 spam = 'Hello World'
-s=spam.strip()
-print(s) 
-p=spam.lstrip('He')
-print(p) 
-a=spam.rstrip('rld')
-print(a) 
+print(spam.strip()) 
+print(spam.lstrip('He')) 
+print(spam.rstrip('rld')) 
 
-hasil = [
-    ', '.join(['cats', 'rats', 'bats']),
-    ' '.join(['My', 'name', 'is', 'Simon']),
-    'ABC'.join(['My', 'name', 'is', 'Simon']),
-    'My name is Simon'.split(),
-    'MyABCnameABCisABCSimon'.split('ABC'),
-    'My name is Simon'.split('m')
-]
-
-for hasil in hasil:
-    print(hasil)
     
 print(', '.join(['cats', 'rats', 'bats']))
 print(' '.join(['My', 'name', 'is', 'Simon']))
